@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color: dimgray;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+h3{
+    margin: 20px auto;
+    color:dimgray;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+div{
+    margin: 10px auto;
+    color:dimgray;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+h2{color:black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.content1{
+    background-color:lightyellow;
+    padding: 20px;
+    border: 8px dashed black;
+    width: 800px;
+    text-align: justify;
+}
+.content2{
+    width: 1000px;
+}
+.content3{
+    width: 1200px;
+    height: 300px;
+    overflow: auto scroll;
+    box-sizing: content-box;
+    -ms-overflow: auto scroll;
+}
+.caption{
+    color:yellow;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 100;
+} 
+.content3>div>p{
+    background-color: yellow;
+    color:black;
+    font-size: 22px;
+    font-weight:500;
+    line-height: 24px;
+}
+.images>div{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+.images>div>div{
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    padding: 20px;
+    right: 0;
+    left:0;
+    top:50%;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.images{
+    text-align: center;
+}
+.down{
+    position: sticky;
+    bottom: 15px;
+    background: yellow;
+    left: 15px;
+    font-size: 20px;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    position: fixed;
+    width: 200px;
+    left:0;
+    top:50%;
+    margin-top: -225px;
+    background-color: yellow;
+    font-weight: 600;
+    border: 2px dashed black;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    padding: 5px;
+}
+.menu>div{
+    margin: 0;
+    border-top: 2px solid black;
+    font-size: 24px;
+}
+.menu>div>div{
+    font-size: 20px;
+    border-top: 2px dashed black;
+}
